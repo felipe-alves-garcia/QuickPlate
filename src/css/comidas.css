@@ -1,0 +1,49 @@
+#foodCard{
+    border: red 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 200ms ease-in-out;
+    box-shadow: 4px 4px 5px rgb(176, 176, 176);
+}
+#foodCard:hover{
+    transform:scale(1.01);
+    opacity: 0.9;
+}
+#foodImg{
+    width: 17rem;
+    height: 13rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foodImg > img{
+    height: 100%; 
+}
+#foodNome{
+    margin:0;
+    font-size: 1.1rem;
+    font-family: K2D;
+    font-weight: 500;
+    color:rgb(41, 41, 41);
+}
+#foodAvaliacao > p{
+    margin:none;
+    position:absolute;
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: bold;
+    color:yellow;
+    top:6%;
+    right:0.5rem;
+}
+#foodAvaliacao > img{
+    width:1.1rem;
+    position: absolute;
+    top: 14.5%;
+    right:2.25rem;
+}
+#foodPreco{
+    color:gray;
+    font-family: Inter;
+}

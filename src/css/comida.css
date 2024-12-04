@@ -1,0 +1,88 @@
+#tituloComida{
+    display:inline;
+    padding: 0.75rem;
+    padding-right: 1.5rem;
+    padding-left: 2rem;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    background-color: rgb(130, 0, 0);
+    margin-left:-0.75rem;
+    color:white;
+    font-family: K2D;
+    font-weight: bold;
+    font-size: 30px;
+    box-shadow: -15px -5px rgb(255, 46, 81);
+}
+#comidaImg{
+    width:22rem;
+    height:17rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    border:0.5px solid rgba(100, 100, 100, 0.5);
+    box-shadow: 4px 4px 8px rgb(200, 200, 200) ;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+#comidaImg > img{
+    height: 100%;
+}
+#foodRest{
+    position: absolute;
+    left:0;
+    top:0;
+    width:4rem;
+    height:4rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+    overflow:hidden;
+    border:0.5px solid rgba(100, 100, 100, 0.5);
+    transition:200ms ease-in-out;
+}
+#foodRest > img{
+    width:100%;
+}
+#foodRest:hover{
+    transform: scale(0.98);
+    opacity: 0.9;
+}
+#comidaAvaliacao > p{
+    margin:0;
+    font-size: 1.5rem;
+    font-family: Inter;
+    font-weight: bold;
+    color:yellow;
+}
+#comidaAvaliacao > img{
+    width:1.3rem;
+}
+#comidaDesc > h3{
+    font-size: 2rem;
+    color:black;
+    font-family: K2D;
+    margin-top:2.5rem ;
+    margin-bottom: 1rem;
+}
+#comidaDesc > p{
+    font-size: 1.25rem;
+    font-family: Inter;
+    padding-left: 2%;
+    margin-bottom:0.5rem;
+    margin-top:0.5rem;
+}
+#foodBotao{
+    width:25rem;
+    font-size: 2rem;
+    font-family: K2D;
+    color:white;
+    border-radius: 10rem;
+    border:none;
+    transition: 200ms ease-in-out;
+    font-weight: bold;
+}
+#foodBotao:hover{
+    background-color: red;
+}

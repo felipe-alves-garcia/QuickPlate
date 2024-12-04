@@ -1,0 +1,16 @@
+body {
+  background-color: white;
+  min-height:100vh;
+}
+@font-face{
+  font-family:Inter;
+  src: url("./css/font/Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+@font-face{
+  font-family:Kaushan;
+  src: url("./css/font/Kaushan_Script/KaushanScript-Regular.ttf");
+}
+@font-face{
+  font-family:K2D;
+  src: url("./css/font/K2D/K2D-Medium.ttf");
+}
